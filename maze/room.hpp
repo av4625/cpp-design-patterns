@@ -19,6 +19,11 @@ public:
         sides_[direction] = map_site;
     }
 
+    int get_number() const
+    {
+        return room_number_;
+    }
+
     virtual void enter(){};
 
 private:
