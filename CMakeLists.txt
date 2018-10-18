@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(maze)
 add_subdirectory(abstract_factory)
 add_subdirectory(builder)
+add_subdirectory(factory)
 
